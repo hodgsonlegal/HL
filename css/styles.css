@@ -1,0 +1,220 @@
+@font-face {
+    font-family: shippori;
+    src: url(/assets/fonts/Shippori_Antique_B1/ShipporiAntiqueB1-Regular.ttf);
+}
+
+body {
+    font-family: shippori;
+    color: #262626;
+}
+
+/* Header -------------------------------------------------------*/
+
+.header {
+    height: 6vh;
+    background-color: #F8F9Fa;
+    padding-top: 1vh;
+
+}
+
+.header-col1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5vw;
+}
+
+.header_link {
+    text-decoration: none;
+    color: #262626;
+}
+
+.header_link:hover {
+    transform: scale(110%);
+}
+
+.header-col2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1vh;
+    /* margin-right: 3vw; */
+    
+}
+
+.social_icon_1 {
+    margin-right: 0.5vw;
+    margin-top: -0.9vh;
+}
+
+.social_icon_1:hover {
+    transform: scale(110%);
+}
+
+
+.social_icon_2 {
+    margin-right: 7vw;
+    margin-top: -0.6vh;
+}
+
+.social_icon_2:hover {
+    transform: scale(110%);
+}
+
+/* Navbar -------------------------------------------------------*/
+
+.navbar {
+    height: 25vh;
+}
+
+.navbar-brand {
+    margin-left: 5vw;
+    
+}
+
+.logo {
+    border: 1px solid #262626;
+    border-radius: 50%;
+    width: 130px;
+    /* height: 110px; */
+    background-color: #262626;
+    margin-left: 3vw;
+    transform: scale(120%);
+}
+
+/* .navbar-item-1 {
+    padding-left: 5vw;
+    
+} */
+
+.home_button {
+    margin-left: 3vw;
+}
+
+.nav_link_button {
+    font-size: larger;
+    margin-left: 2vw;
+}
+
+.nav_link_button:hover {
+    transform: scale(110%);
+}
+
+/* Body ---------------------------------------------------------*/
+
+.pagebreak {
+    height: 10vh;
+    background-color: #262626;
+}
+
+.body_fill {
+    /* margin-top: 3vh; */
+    /* margin-left: 0%; */
+    /* padding: 0%; */
+    background-color: #262626;
+    height: 45vh;
+} 
+
+.back_image {
+    background-image: url("/assets/images/deskplants.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-left: 10%; */
+    /* margin-top: 6%; */
+    /* padding-left: 0%; */
+    /* height: 150%; */
+    /* width: 50%; */
+    /* transform: scale(95%); */
+    /* opacity: 20%; */
+
+}
+
+.hodg_title {
+    margin-top: 14vh;
+    margin-left: 10vw;
+    font-size: 68px;
+}
+
+.hodg_subtitle {
+    margin-top: 5vh;
+    margin-left: 3.5vw;
+    font-size: 40px;
+}
+
+
+
+
+/* Bootstrap 4 breakpoints -------------------------------------------------*/ 
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+@media (max-width: 575px) {
+    .header {
+        height: 10vh;
+    }
+    .navbar {
+        height: 10vh;
+    }
+
+    .logo {
+        /* border: 1px solid #262626; */
+        /* border-radius: 50%; */
+        /* width: 130px; */
+        /* height: 110px; */
+        /* background-color: #262626; */
+        /* margin-left: 3vw; */
+        /* transform: scale(120%); */
+        display: none;
+    }
+
+    .hodg_title {
+        text-align: center;
+        margin-top: 0vh;
+        margin-left: 0vw;
+        font-size: 58px;
+    }
+
+    .hodg_subtitle {
+        margin-top: 0vh;
+        margin-left: 0vw;
+        text-align: center;
+    }
+
+    .body_fill {
+        /* margin-top: 3vh; */
+        /* margin-left: 0%; */
+        /* padding: 0%; */
+        background-color: #262626;
+        height: 40vh;
+    }
+
+    .pagebreak {
+        height: 5vh;
+        background-color: #262626;
+    }
+} 
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 575px) {  
+    
+}
+
+@media (min-width: 576px) {  
+    
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
