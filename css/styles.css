@@ -1,0 +1,465 @@
+/* <a href="https://www.flaticon.com/free-icons/law" title="law icons">Law icons created by Freepik - Flaticon</a> */
+
+
+@font-face {
+    font-family: shippori;
+    src: url(/assets/fonts/Shippori_Antique_B1/ShipporiAntiqueB1-Regular.ttf);
+}
+
+@font-face {
+    font-family: noto_serif;
+    src: url(/assets/fonts/Noto_Serif/NotoSerif-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: noto_italic;
+    src: url(/assets/fonts/Noto_Serif/NotoSerif-Italic.ttf);
+}
+
+body {
+    font-family: shippori;
+    color: #262626;
+    background-color: #262626;
+    
+}
+
+/* Header -------------------------------------------------------*/
+
+.header {
+    height: 7vh;
+    background-color: #F8F9Fa;
+    padding-top: 1vh;
+
+}
+
+.header-col1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 5vw;
+}
+
+.header_link {
+    text-decoration: none;
+    color: #262626;
+}
+
+.header_link:hover {
+    transform: scale(110%);
+}
+
+.header-col2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1vh;
+    /* margin-right: 3vw; */
+    
+}
+
+.social_icon_1 {
+    margin-right: 0.5vw;
+    margin-top: -0.9vh;
+}
+
+.social_icon_1:hover {
+    transform: scale(110%);
+}
+
+
+.social_icon_2 {
+    margin-right: 7vw;
+    margin-top: -0.6vh;
+}
+
+.social_icon_2:hover {
+    transform: scale(110%);
+}
+
+/* Navbar -------------------------------------------------------*/
+
+.navbar {
+    height: 25vh;
+}
+
+.navbar-brand {
+    margin-left: 5vw;
+    
+}
+
+.logo {
+    border: 1px solid #262626;
+    border-radius: 50%;
+    width: 130px;
+    /* height: 110px; */
+    background-color: #262626;
+    /* margin-left: 3vw; */
+    
+}
+
+.logo:hover {
+    transform: scale(110%);
+}
+
+/* .navbar-item-1 {
+    padding-left: 5vw;
+    
+} */
+
+.home_button {
+    margin-left: 3vw;
+}
+
+.nav_link_button {
+    font-size: larger;
+    margin-left: 2vw;
+}
+
+.nav_link_button:hover {
+    transform: scale(110%);
+}
+
+/* Body ---------------------------------------------------------*/
+
+.pagebreak {
+    height: 10vh;
+    background-color: #262626;
+}
+
+.body_fill {
+    /* margin-top: 3vh; */
+    /* margin-left: 0%; */
+    /* padding: 0%; */
+    background-color: #262626;
+    height: 45vh;
+    
+} 
+
+.back_image {
+    background-image: url("/assets/images/deskplants.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin-left: 10%; */
+    /* margin-top: 6%; */
+    /* padding-left: 0%; */
+    /* height: 150%; */
+    /* width: 50%; */
+    /* transform: scale(95%); */
+    /* opacity: 20%; */
+
+}
+
+.hodg_title {
+    margin-top: 14vh;
+    margin-left: 10vw;
+    font-size: 68px;
+}
+
+.hodg_subtitle {
+    margin-top: 5vh;
+    margin-left: 3.5vw;
+    font-size: 40px;
+}
+
+/* Body ------------------------------------------ */
+
+.body_background {
+    background-color: #262626;
+    height: 135vh;
+    
+}
+
+.body_inner {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    /* margin-top: -12vh; */
+    background-color: #FFFF;
+    /* height: 65%; */
+    /* border-radius: 15px; */
+    border-bottom-right-radius: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.button_container {
+    background-color: #FFFF;
+    /* height: 120%; */
+}
+
+.hl_banner {
+    /* margin-left: 2vh; */
+    /* border-radius: 5%; */
+    height: 100%;
+    /* border-bottom-right-radius: %; */
+}
+
+.contact_us_button {
+    margin-top: 4vh;
+    margin-left: 2vw;
+    height: 20vh;
+    width: 12vw;
+    border-radius: 10%;
+    background-color: #262626;
+    box-shadow: #262626 5px 5px 5px;
+}
+
+.contact_us_button:hover {
+    transform: scale(110%);
+}
+
+.contact_us_button_txt {
+    font-size: large;
+    color: #F8F9Fa;
+
+}
+
+/* Second Container ------------------------*/
+
+.second_container_background {
+    background-color: #262626;
+    /* height: 100vh; */
+    
+}
+
+.getintouchcopy {
+    font-family: shippori;
+}
+
+.getintouchcopy h2 {
+    text-align: center;
+    padding-top: 3%;
+    
+}
+
+.getintouchcopy p {
+    text-align: center;
+    padding-top: 2vh;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.second_container_inner {
+    background-color: #F8F9Fa;
+    height: 100vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    
+    /* margin-top: -15vh; */
+    /* color: #F8F9Fa; */
+}
+
+.second_container_inner h3 {
+    text-align: center;
+    padding-top: 10vh;
+    font-family: noto_serif;
+    padding-bottom: 8vh;
+}
+
+.img_container {
+    display: flex;
+    justify-content: center;
+}
+
+.scales_image {
+    width: 10vh;
+    
+}
+
+.body_list {
+    padding-top: 3vh;
+    font-family: shippori;
+    font-size: large;
+}
+
+.body_copy_blurb {
+    font-family: shippori;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 8vh;
+}
+
+
+/* footer -------------------------------------*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #262626;
+    height: 20vh;
+    font-size: larger;
+    /* text-decoration: none; */
+}
+
+.body_inner_footer {
+    display: flex;
+    background-color: #FFFF;
+    margin-left: 1.9vw;
+    margin-right: 1.8vw;
+
+}
+
+.footer_link {
+    padding-top: 10%;
+    text-decoration: none;
+    color: #F8F9Fa;
+    margin-right: 5vw;
+}
+
+.footer_link:hover {
+    transform: scale(110%);
+    color: #F8F9Fa;
+}
+
+.linkedin_logo {
+    padding-left: 1vw;
+    padding-top: 5vh;
+    width: 60px;
+}
+
+.linkedin_logo:hover {
+    transform: scale(110%);
+}
+
+/* End of index-------------------------------------------------------------------------------------------------- */
+
+/* contact_us.html --------------------------------------------------------------*/
+
+
+/* make_an_enquiry.html --------------------------------------------------------*/
+
+.contact_us_container {
+    margin-left: 3vw;
+    margin-top: 1vw;
+    border: 1px #262626;
+    /* height: 15vh; */
+    padding-top: 5%;
+}
+
+.second_container_inner_mae {
+    /* margin-left: 5vw; */
+    /* margin-right: 5vw; */
+    width: 96%;
+    background-color: #F8F9Fa;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.form_container_mae {
+    /* border: 1px solid #262626; */
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.enquire_buttons {
+    margin-left: 35%;
+    padding-bottom: 5%;
+}
+
+
+/* Bootstrap 4 breakpoints -------------------------------------------------*/ 
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+@media (max-width: 575px) {
+    .header {
+        height: 10vh;
+    }
+    .navbar {
+        height: 10vh;
+    }
+
+    .logo {
+        /* border: 1px solid #262626; */
+        /* border-radius: 50%; */
+        /* width: 130px; */
+        /* height: 110px; */
+        /* background-color: #262626; */
+        /* margin-left: 3vw; */
+        /* transform: scale(120%); */
+        display: none;
+    }
+
+    .hodg_title {
+        text-align: center;
+        margin-top: 0vh;
+        margin-left: 0vw;
+        font-size: 58px;
+    }
+
+    .hodg_subtitle {
+        margin-top: 0vh;
+        margin-left: 0vw;
+        text-align: center;
+    }
+
+    .body_fill {
+        /* margin-top: 3vh; */
+        /* margin-left: 0%; */
+        /* padding: 0%; */
+        background-color: #262626;
+        height: 54vh;
+    }
+
+    .pagebreak {
+        height: 5vh;
+        background-color: #262626;
+    }
+
+    .body_inner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body_inner img {
+        width: 100%;
+    }
+
+    .body_inner button {
+        display: none;
+    }
+
+    .body_list {
+        display: flex;
+        flex-direction: column;
+        padding-top: 3vh;
+        font-family: shippori;
+    }
+
+    .body_background {
+        height: 120vh;
+    }
+
+    .second_container_inner {
+        height: 100vh;
+    }
+
+
+} 
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 575px) {  
+    
+}
+
+@media (min-width: 576px) {  
+    
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+    
+}
