@@ -3,17 +3,17 @@
 
 @font-face {
     font-family: shippori;
-    src: url(assets/fonts/Shippori_Antique_B1/ShipporiAntiqueB1-Regular.ttf);
+    src: url('assets/fonts/Shippori_Antique_B1/ShipporiAntiqueB1-Regular.ttf');
 }
 
 @font-face {
     font-family: noto_serif;
-    src: url(assets/fonts/Noto_Serif/NotoSerif-BoldItalic.ttf);
+    src: url('assets/fonts/Noto_Serif/NotoSerif-BoldItalic.ttf');
 }
 
 @font-face {
     font-family: noto_italic;
-    src: url(assets/fonts/Noto_Serif/NotoSerif-Italic.ttf);
+    src: url('assets/fonts/Noto_Serif/NotoSerif-Italic.ttf');
 }
 
 body {
@@ -136,7 +136,7 @@ body {
 } 
 
 .back_image {
-    background-image: url("assets/images/deskplants.png");
+    background-image: url('assets/images/deskplants.png');
     background-repeat: no-repeat;
     background-size: cover;
     /* margin-left: 10%; */
